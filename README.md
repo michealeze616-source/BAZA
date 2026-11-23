@@ -28,7 +28,7 @@ npm run dev
 
 ## Supabase setup (needed for real accounts and saved data)
 1. Create a Supabase project.
-2. In Supabase SQL Editor, run `supabase/migrations/001_initial_schema.sql`.
+2. In Supabase SQL Editor, run `supabase/migrations/001_initial_schema.sql`.\n3. Then run `supabase/migrations/002_profiles_roles_and_listing_storage.sql` to enable Buyer/Seller profiles and secure listing-photo uploads.
 3. Add the following Vite variables in local `.env.local` and Vercel Project Settings → Environment Variables:
    - `VITE_SUPABASE_URL`
    - `VITE_SUPABASE_ANON_KEY`
