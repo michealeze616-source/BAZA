@@ -8,12 +8,13 @@ BAZA is a Nigeria-first general marketplace for discovering products, services, 
 - GitHub: https://github.com/michealeze616-source/BAZA
 
 ## Current features
-- Responsive marketplace landing page and navigation
-- Category browsing and client-side search
-- Sample listing cards in Nigerian Naira
-- Favorites (currently in browser session state)
-- Signup and login UI wired to Supabase Auth when configured
-- Supabase starter schema for profiles, listings, favorites, conversations, and messages with Row Level Security policies
+- Responsive marketplace landing page and category search
+- Real user listings loaded from Supabase (no demo inventory)
+- Buyer, seller, or buyer-and-seller signup roles
+- Editable account profiles
+- Listing creation with photo upload
+- Seller dashboard to edit and delete their own listings
+- Supabase Auth, Postgres and Storage policies (requires project setup)
 
 ## Tech stack
 - React + TypeScript + Vite
@@ -32,7 +33,7 @@ npm run dev
 3. Add the following Vite variables in local `.env.local` and Vercel Project Settings → Environment Variables:
    - `VITE_SUPABASE_URL`
    - `VITE_SUPABASE_ANON_KEY`
-4. Redeploy after setting the variables.
+5. Redeploy after setting the variables.
 
 Only use the Supabase anon/publishable key in this frontend. Never place service-role keys or other secrets in client environment variables.
 
