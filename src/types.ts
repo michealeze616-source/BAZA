@@ -1,1 +1,1 @@
-export type Product = { id: string; title: string; price: number; category: string; location: string; condition: 'New' | 'Used'; image: string; seller: string; badge?: string };
+export type Product = { id: string; title: string; price: number; category: string; location: string; condition: 'New' | 'Used'; image: string; seller: string; badge?: string; description?: string };
