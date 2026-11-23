@@ -20,3 +20,6 @@ footer{padding:40px 5.5%;border-top:1px solid var(--line);text-align:center}foot
 
 /* Automated safety screening indicators */
 .risk-badge{margin-top:8px;display:inline-block;border-radius:6px;padding:6px 8px;font-size:10px;font-weight:800;background:#eef8ef;color:#247a38}.risk-badge.flagged{background:#fff4df;color:#97620a}.risk-badge.hold{background:#fff0f0;color:#a33333}.risk-flags{display:block;margin-top:5px;color:#9a5a20;font-size:10px;line-height:1.4}
+
+/* Automated safety screening indicators */
+.risk-badge{margin-top:8px;display:inline-block;border-radius:6px;padding:6px 8px;font-size:10px;font-weight:800;background:#eef8ef;color:#247a38}.risk-badge.flagged{background:#fff4df;color:#97620a}.risk-badge.hold{background:#fff0f0;color:#a33333}.risk-flags{display:block;margin-top:5px;color:#9a5a20;font-size:10px;line-height:1.4}
